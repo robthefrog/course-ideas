@@ -1,0 +1,10 @@
+{{#partial "content"}}
+    <h1>Voted for by:</h1>
+    <ul>
+        {{#each idea.voters}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+{{/partial}}
+
+{{> base.hbs }}
